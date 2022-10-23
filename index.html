@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toast Notifications UI Design</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="notificacao sucesso">
+            <i class="fa-solid fa-circle-check"></i>
+            <div class="mensagem">
+                <h2>Sucesso</h2>
+                <p>Suas alterações foram salvas.</p>
+            </div>
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+
+        <div class="notificacao erro">
+            <i class="fa-solid fa-circle-xmark"></i>
+            <div class="mensagem">
+                <h2>Erro</h2>
+                <p>Não foi possível salvar suas alterações.</p>
+            </div>
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+
+        <div class="notificacao informacao">
+            <i class="fa-solid fa-circle-info"></i>
+            <div class="mensagem">
+                <h2>Informação</h2>
+                <p>Novas configurações estão disponíveis.</p>
+            </div>
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+
+        <div class="notificacao aviso">
+            <i class="fa-solid fa-circle-exclamation"></i>
+            <div class="mensagem">
+                <h2>Aviso</h2>
+                <p>O nome de usuário é inválido.</p>
+            </div>
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+    </div>
+
+</body>
+</html>

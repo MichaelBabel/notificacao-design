@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f2f2f2;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notificacao {
+    background-color: #fff;
+    width: 450px;
+    padding: 25px 25px;
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.fa-xmark {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    font-size: 20px;
+    color: #787878;
+    cursor: pointer;
+}
+
+.mensagem h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #404040;
+}
+
+.mensagem p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #787878;
+}
+
+.notificacao.sucesso {
+    border-left: 10px solid #53ac59;
+}
+
+.notificacao.sucesso .fa-circle-check {
+    color: #53ac59;
+    font-size: 35px;
+    padding-right: 25px;
+}
+
+.notificacao.erro {
+    border-left: 10px solid #e02130;
+}
+
+.notificacao.erro .fa-circle-xmark {
+    color: #e02130;
+    font-size: 35px;
+    padding-right: 25px;
+}
+
+.notificacao.informacao {
+    border-left: 10px solid #8ac7de;
+}
+
+.notificacao.informacao .fa-circle-info {
+    color: #8ac7de;
+    font-size: 35px;
+    padding-right: 25px;
+}
+
+.notificacao.aviso {
+    border-left: 10px solid #f39708;
+}
+
+.notificacao.aviso .fa-circle-exclamation {
+    color: #f39708;
+    font-size: 35px;
+    padding-right: 25px;
+}
